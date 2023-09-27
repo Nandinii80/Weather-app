@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-image: linear-gradient(to bottom right, #276174,#33c58e,#63fd88);
+   background-repeat: no-repeat;
+   height: auto;
+}
+h1{
+    font-size: 40px;
+    background-color: black; 
+    color: beige;
+    text-align: center;
+}
+.container{
+    gap: 35px;
+    padding: 30px;
+}
+input{ 
+width: 100%;
+height: 46px;
+outline: none;
+font-size: 1.07rem;
+border-radius: 10px;
+border: 2 px solid #acdf87;
+margin: 10px 0 20px 0;
+text-align: center;
+}
+input:is(:focus, :valid){
+    border: 2px solid black;
+  }
+input::placeholder{
+    color: #bfbfbf;
+}
+button{
+    width: 50%;
+    height: 40px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    background:#607d38;
+    font-size: 1rem; 
+}
+button:hover{
+    background: #d67229;
+  }
+.btn{
+    padding-left: 100px;
+}
+ .separator{
+    height: 1px;
+  width: 100%;
+  margin: 25px 0;
+  background: #ccc;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.separator::before{
+  content: "or";
+  color: #b3b3b3;
+  font-size: 19px;
+  padding: 0 15px;
+  background: #fff;
+}
+.weather-info{
+    width: 400px;
+    background:beige;
+    color:black;
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+}
+.weather-info h2{
+    text-align: center;
+    font-size: 30px;
+    padding: 2px 2px 2px 2px;
+}
+.weather-info select {
+    text-align: center;
+    font-size: 20px;
+    padding: 2px 2px 2px 2px;
+    border: 1px solid black;
+    outline: none;
+}
+#weatherInfo{
+    background: beige;
+    width: 300px;
+    color: black;
+    margin-top: 20px;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+  width: 400px;
+  background: beige;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+margin-top: 50px;
+}
